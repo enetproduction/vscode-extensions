@@ -1,0 +1,21 @@
+{
+    "name": "enpsasssnippets",
+    "displayName": "enpSassSnippets",
+    "description": "Enp snippets pack for sass",
+    "version": "0.1.0",
+    "publisher": "baca84",
+    "engines": {
+        "vscode": "^1.13.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "scss",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}

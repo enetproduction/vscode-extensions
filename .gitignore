@@ -1,0 +1,6 @@
+**/.sass-cache/
+**/node_modules/
+*.orig
+npm-debug.log
+.tmp/
+**/.vscode/

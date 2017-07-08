@@ -1,0 +1,21 @@
+{
+    "name": "enptwigsnippets",
+    "displayName": "enpTwigSnippets",
+    "description": "Enp snippets pack for twig",
+    "version": "0.1.0",
+    "publisher": "baca84",
+    "engines": {
+        "vscode": "^1.13.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "twig",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}

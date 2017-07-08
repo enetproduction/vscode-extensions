@@ -1,0 +1,102 @@
+{
+    "breakpoint": {
+        "prefix": "breakpoint",
+        "body": [
+            "@include breakpoint($1){",
+            "   $2",
+            "}"
+        ],
+        "description": "Make breakpoint"
+    },
+    "phone": {
+        "prefix": "phone",
+        "body": [
+            "@include breakpoint(phone){",
+            "   $1",
+            "}"
+        ],
+        "description": "phone breakpoint"
+    },
+    "phone_big": {
+        "prefix": "phone_big",
+        "body": [
+            "@include breakpoint(phone_big){",
+            "   $1",
+            "}"
+        ],
+        "description": "phone_big breakpoint"
+    },
+    "tablet": {
+        "prefix": "tablet",
+        "body": [
+            "@include breakpoint(tablet){",
+            "   $1",
+            "}"
+        ],
+        "description": "tablet breakpoint"
+    },
+    "tablet_big": {
+        "prefix": "tablet_big",
+        "body": [
+            "@include breakpoint(tablet_big){",
+            "   $1",
+            "}"
+        ],
+        "description": "tablet_big breakpoint"
+    },
+    "desktop_small": {
+        "prefix": "desktop_small",
+        "body": [
+            "@include breakpoint(desktop_small){",
+            "   $1",
+            "}"
+        ],
+        "description": "desktop_small breakpoint"
+    },
+    "desktop": {
+        "prefix": "desktop",
+        "body": [
+            "@include breakpoint(desktop){",
+            "   $1",
+            "}"
+        ],
+        "description": "desktop breakpoint"
+    },
+    "desktop_big": {
+        "prefix": "desktop_big",
+        "body": [
+            "@include breakpoint(desktop_big){",
+            "   $1",
+            "}"
+        ],
+        "description": "desktop_big breakpoint"
+    },
+    "include": {
+        "prefix": "@include",
+        "body": [
+            "@include $1"
+        ],
+        "description": "@include"
+    },
+    "retina-sprite": {
+         "prefix": "retina",
+         "body": [
+             "@include retina-sprite($icon-${1:star2}-group);"
+         ],
+        "description": "insert retina mixin for icons"
+    },
+    "sprite": {
+         "prefix": "sprite",
+         "body": [
+             "@include sprite($icon-${1:star2});"
+         ],
+        "description": "insert sprite icon without retina"
+    },
+    "triangle": {
+         "prefix": "triangle",
+         "body": [
+             "@include triangle(${1:up}, ${2:#000}, ${3:100px})"
+         ],
+        "description": "insert triangle"
+    }
+}
