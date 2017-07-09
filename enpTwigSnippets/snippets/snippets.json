@@ -285,9 +285,9 @@
     "adBlock": {
         "prefix": "adBlock",
         "body": [
-            "{{ insertAdBlock('${1:js-category-recommendation}', '${2:product}', offer, offer.category.id|default(null)) }}"
+            "{{ insertAdBlock('${1:js-category-recommendation}', '${2:category}', offers, category.id|default(null)) }}"
         ],
-        "description": "insert adBlock example on category pages"
+        "description": "insert adBlock example on category/listing page, first param is css class, second one is template name"
     },
     "controlPanelValue": {
         "prefix": "controlPanelValue",
