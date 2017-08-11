@@ -189,6 +189,13 @@
         ],
         "description": "add translate"
     },
+    "trans-domain": {
+        "prefix": "trans",
+        "body": [
+            "{{ '$1'|trans({}, '$2') }}"
+        ],
+        "description": "add translate with domain"
+    },
     "imageMacro": {
         "prefix": "imageMacro",
         "body": [
@@ -307,8 +314,8 @@
         "prefix": "contentLandingpages",
         "body": [
             "{% if contentLandingpages[${1:textOnTop}] is defined %}",
-		    "   {{ contentLandingpages[${2:textOnTop}] | raw }}",
-	        "{% endif %}"
+            "   {{ contentLandingpages[${2:textOnTop}] | raw }}",
+            "{% endif %}"
         ],
         "description": "insert contentLandingpages textOnTop or textOnBottom"
     },
